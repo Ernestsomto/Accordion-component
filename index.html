@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="Css/custom.css">
+  
+  <title>Frontend Mentor | FAQ Accordion Card</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <main>
+      <!--container main-->
+      <div class="mainwrapper">
+        <div class="wrapper-img">
+          <div class="img-main"></div>
+          <img class="org-box" src="/images/illustration-box-desktop.svg" alt="box">
+        </div>
+
+        <section class="FAQ-info">
+          <h1 class="title">FAQ</h1>
+          <!--Question-1-->
+         <div class="Accordion-main">
+           <div class="Accordion-groups"> 
+               <input class="Accordion-main-trigger" id="Accordion-main-1" type="checkbox" /><label class="Accordion-info" for="Accordion-main-1">How many team members can I invite?</label> 
+            <div class="answer-wrapper">
+              <div class="response content-wrapper">
+                <p>You can invite up to 2 additional users on the Free plan. There is no limit on team members for the Premium plan</p>
+              </div>
+            </div>
+             
+           </div>    
+         </div>
+
+         <!--Question 2-->
+         <div class="Accordion-main">
+           <div class="Accordion-groups">
+            
+               <input class="Accordion-main-trigger" id="Accordion-main-2" type="checkbox" /><label class="Accordion-info" for="Accordion-main-2">What is the Maximum file upload?</label>
+               <div class="answer-wrapper">
+                <div class="response content-wrapper">
+                  <p>No more than 2GB. All files in your account must fit your allotted storage space.</p>
+                </div>
+               </div>
+           </div>
+         </div>
+
+         <!--Question 3-->
+         <div class="Accordion-main">
+           <div class="Accordion-groups">
+               <input class="Accordion-main-trigger" id="Accordion-main-3" type="checkbox" /><label class="Accordion-info" for="Accordion-main-3">How do I reset my password?</label>
+               <div class="answer-wrapper"> 
+                <div class="response content-wrapper">
+                  <p>Click “Forgot password” from the login page or “Change password” from your profile page. A reset link will be emailed to you.</p>
+                </div>
+               </div> 
+           </div>
+         </div>
+
+         <!--Question 4-->
+         <div class="Accordion-main">
+           <div class="Accordion-groups">
+               <input class="Accordion-main-trigger" id="Accordion-main-4" type="checkbox" /><label class="Accordion-info" for="Accordion-main-4">Can I cancel My subscription?</label>
+              <div class="answer-wrapper">
+                <div class="response content-wrapper">
+                  <p>Yes! Send us a message and we’ll process your request no questions asked.</p>
+                </div>
+              </div>
+             
+           </div>
+         </div>
+
+         <!--Question 5-->
+          <div class="Accordion-main">
+           <div class="Accordion-groups"> 
+            <input class="Accordion-main-trigger" id="Accordion-main-5" type="checkbox" /><label class="Accordion-info" for="Accordion-main-5">Do you provide additional support</label>
+              <div class="answer-wrapper">
+                <div class="response content-wrapper">
+                  <p>Chat and email support is available 24/7. Phone lines are open during normal business hours.</p>
+                </div> 
+              </div> 
+           </div>
+          </div>
+
+        </section>
+      </div>
+
+  </main>
+ 
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="blank">Frontend Mentor</a>. 
+    Coded by <a href="https://www.frontendmentor.io/profile/Ernestsomto" target="blank">Ernest</a>
+  </div>
+
+</body>
+</html>
